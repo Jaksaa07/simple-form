@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vjezba</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <form id="myForm">
+      <label for="email">Email:</label>
+      <input id="email" type="email" name="email" id="email">
+      <label for="name">Name:</label>
+      <input id="name" type="text" name="name" id="name">
+      <label for="address">Address: </label>
+      <input id="address" type="text" name="address" id="address">
+      <label for="country">Country:</label>
+      <input id="country" type="text" name="country" id="country">
+      <button id="save-user">Save user</button>
+      <p id="thanks">Thank you!</p>
+    </form>
+  </div>
+  
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
